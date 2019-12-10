@@ -1,6 +1,32 @@
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+ul { 
+    padding-inline-start: 0; 
+}
+
+header {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 0; 
+}
+
 .header li {
     display: inline-block;
-    margin: 50px;
+    margin-right: 122px;
+    padding-top: 76px;
+    padding-bottom: 102px;
+    font-size: 14px;
+}
+
+.header li:first-child {
+    padding-left: 120px;
+}
+
+.header li:last-child {
+    margin-right: 0;
 }
 
 a {
@@ -10,14 +36,11 @@ a {
     color: rgb(98, 98, 98);
 }
 
-.header:first-child {
-    margin-left: 330px;
+a:hover {
+    color: white;
+    background-color: blue;
 }
 
-.section {
-    width: 901px;
-    margin: auto;
-}
 
 .item {
     display: inline-block;
@@ -29,38 +52,49 @@ a {
     font-family: 'Playfair Display', serif;
 }
 
+img {
+    margin-bottom: 32px;
+}
+
+.item:nth-child(odd) {
+    margin-right: 50px;
+}
 .item:nth-child(5) {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .item:nth-child(6) {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .opacity {
     opacity: 0.5;
+    margin-bottom: 32px;
 }
 
 .section ul {
-    padding: 0px;
+    padding: 0;
+    margin: 0;
 }
 
-.item:nth-child(2n) {
-margin-left: 55px;
-}
 
 .bod {
-    margin: 0px;
+    margin: 0;
 }
 
 h2 {
     font-size: 30px;
     font-weight: normal;
+    margin: 0;
+    margin-bottom: 36px;
+}
+
+p {
+    margin: 0;
 }
 
 .button {
     margin-left: calc(50% - 83px);
-    margin-bottom: 70px;
     margin-top: 19px;
     background-color: #fff;
     width: 166px;
@@ -68,4 +102,13 @@ h2 {
     font-family: 'Playfair Display', serif;
     font-size: 20px;
     color: rgb(98, 98, 98);
+}
+
+.button:hover {
+    color: white;
+    background-color: blue;
+}
+
+.down {
+    padding-bottom: 70px;
 }
