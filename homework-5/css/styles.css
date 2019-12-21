@@ -215,6 +215,7 @@ li {
 
 .elements {
     position: relative;
+    width: 256px;
 }
 
 .name {
