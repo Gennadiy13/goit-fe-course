@@ -19,7 +19,7 @@ input[type=“radio”].visually-hidden {
     overflow: hidden;
 }
 
-.site {
+.container {
     width: 1200px;
     margin: 0 auto;
 }
@@ -70,7 +70,7 @@ input[type=“radio”].visually-hidden {
 .navigation:after {
     display: block;
     content: ""; 
-    width: 50px;
+    width: 100%;
     height: 3px;
     background-color: #f38181;
     margin: auto;
@@ -121,9 +121,39 @@ input[type=“radio”].visually-hidden {
 }
 
 .itemsli {
-    width: 382px;
+    width: 360px;
     display: flex;
     justify-content: space-between;
+}
+.itemsli::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    background-repeat: no-repeat; 
+}
+
+.alarm::before {
+    background-image: url(../img/icons/alarm.png);
+}
+
+.graph::before {
+    background-image: url(../img/icons/graph.png);
+}
+
+.computer::before {
+    background-image: url(../img/icons/computer.png);
+}
+
+.book::before {
+    background-image: url(../img/icons/book.png);
+}
+
+.home::before {
+    background-image: url(../img/icons/home.png);
+}
+
+.image::before {
+    background-image: url(../img/icons/image.png);
 }
 
 .text-combined {
@@ -162,6 +192,8 @@ input[type=“radio”].visually-hidden {
     color: rgb(153, 153, 153);
     line-height: 1.6;
     text-align: center;
+    margin: 0 auto;
+    width: 944px;
     margin-bottom: 88px;
 }
 
@@ -188,6 +220,7 @@ input[type=“radio”].visually-hidden {
     height: 100%;
     top: 0;
     left: 0;
+    opacity: 0.9;
     visibility: hidden;
 }
 
@@ -233,7 +266,6 @@ input[type=“radio”].visually-hidden {
 }
 
 .image-bottom {
-    display: inline-block;
     text-align: center;
 }
 
@@ -254,7 +286,8 @@ input[type=“radio”].visually-hidden {
 .photo-text {
     font-family: "Roboto";
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 300;
+    font-style: italic;
     color: rgb(153, 153, 153);
     line-height: 1.6;
     margin-bottom: 108px;
@@ -297,6 +330,7 @@ input[type=“radio”].visually-hidden {
     color: rgb(204, 204, 204);
     font-style: italic;
     line-height: 1.6;
+    padding-left: 12px;
 }
 
 .input {
