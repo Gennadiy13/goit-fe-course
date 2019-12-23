@@ -253,6 +253,7 @@ input[type=“radio”].visually-hidden {
 
 .wrapper img {
     display: block;
+<<<<<<< HEAD
 }
 
 /* 
@@ -270,3 +271,6 @@ input[type=“radio”].visually-hidden {
     z-index: 25;
   } */
   
+=======
+}
+>>>>>>> a7b4ea5d713fa8512d510131c464dc3ebfd4d315
