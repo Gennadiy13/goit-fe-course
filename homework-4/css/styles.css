@@ -253,4 +253,24 @@ input[type=“radio”].visually-hidden {
 
 .wrapper img {
     display: block;
+<<<<<<< HEAD
 }
+
+/* 
+.Rectangle_50_copy {
+    border-width: 10px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.549;
+    position: absolute;
+    left: 530px;
+    top: 946px;
+    width: 235px;
+    height: 261px;
+    z-index: 25;
+  } */
+  
+=======
+}
+>>>>>>> a7b4ea5d713fa8512d510131c464dc3ebfd4d315

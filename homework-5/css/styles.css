@@ -90,9 +90,6 @@ li {
 
 .slider {
     position: relative;
-    width: 100%;
-    height: 600px;
-    margin: auto;
 }
 
 .slider-buttons {
@@ -110,18 +107,34 @@ li {
     height: 104px;
     top: 50%;
     transform: translateY(-50%);
-    z-index: 1;
 }
 
 .slider-ctrl-left {
     background-image: url(../img/left.png);
     left: 0;
+    background-color: #1abc9c;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .slider-ctrl-right {
     background-image: url(../img/right.png);
     right: 0;
-    opacity: 0.5;
+    background-color: #1abc9c;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slider-ctrl-left:hover {
+    opacity: 0.651;
+    cursor: pointer;
+    border-style: none;
+}
+
+.slider-ctrl-right:hover {
+    opacity: 0.651;
+    cursor: pointer;
+    border-style: none;
 }
 
 .slide {
@@ -154,12 +167,13 @@ li {
 .slide-text {
     position: absolute;
     width: 800px;
-    top: 230px;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
     color: white;
     text-transform: uppercase;
     font-family: Roboto;
+    text-align: center;
 }
 
 .slide-text h2 {

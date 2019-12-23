@@ -40,6 +40,7 @@ input[type=“radio”].visually-hidden {
     font-size: 30px;
     color: #95e1d3;
     padding-bottom: 10px;
+    transition-duration: 200ms;
 }
 
 .logo:hover {
@@ -168,6 +169,7 @@ input[type=“radio”].visually-hidden {
     position: relative;
     margin-bottom: 28px;
     width: 380px;
+    transition-duration: 200ms;
 }
 
 .photo:hover {
@@ -276,6 +278,7 @@ input[type=“radio”].visually-hidden {
 .bottom-a {
     text-decoration: none;
     color: #f38181;
+    transition-duration: 200ms;
 }
 
 .bottom-a:hover {
@@ -313,6 +316,7 @@ input[type=“radio”].visually-hidden {
     font-family: "Montserrat";
     font-weight: bold;
     text-transform: uppercase;
+    transition-duration: 200ms;
 }
 
 .subscribe:hover {
