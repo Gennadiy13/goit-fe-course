@@ -94,7 +94,10 @@ li {
 
 .slider-buttons {
     position: absolute;
+<<<<<<< HEAD
     width: 1110px;
+=======
+>>>>>>> 1d83c5eaf851f8712d592d7c313fcf3d264a07a5
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -116,7 +119,10 @@ li {
     background-color: #1abc9c;
     background-repeat: no-repeat;
     background-position: center;
+<<<<<<< HEAD
     opacity: 0.651;
+=======
+>>>>>>> 1d83c5eaf851f8712d592d7c313fcf3d264a07a5
 }
 
 .slider-ctrl-right {
@@ -125,17 +131,28 @@ li {
     background-color: #1abc9c;
     background-repeat: no-repeat;
     background-position: center;
+<<<<<<< HEAD
     opacity: 0.651;
 }
 
 .slider-ctrl-left:hover {
     opacity: 1;
+=======
+}
+
+.slider-ctrl-left:hover {
+    opacity: 0.651;
+>>>>>>> 1d83c5eaf851f8712d592d7c313fcf3d264a07a5
     cursor: pointer;
     border-style: none;
 }
 
 .slider-ctrl-right:hover {
+<<<<<<< HEAD
     opacity: 1;
+=======
+    opacity: 0.651;
+>>>>>>> 1d83c5eaf851f8712d592d7c313fcf3d264a07a5
     cursor: pointer;
     border-style: none;
 }
@@ -233,11 +250,14 @@ li {
 .elements {
     position: relative;
     width: 256px;
+<<<<<<< HEAD
 }
 
 .div-up {
     position: relative;
     height: 322px;
+=======
+>>>>>>> 1d83c5eaf851f8712d592d7c313fcf3d264a07a5
 }
 
 .div-bottom {
@@ -259,6 +279,10 @@ li {
     padding-top: 10px;
     padding-left: 10px;
     text-decoration: none;
+<<<<<<< HEAD
+=======
+    z-index: 1;
+>>>>>>> 1d83c5eaf851f8712d592d7c313fcf3d264a07a5
 }
 
 .price {
@@ -273,7 +297,12 @@ li {
     font-weight: 900;
     right: 0;
     padding: 10px;
+<<<<<<< HEAD
     padding-bottom: 12px;
+=======
+    height: 40px;
+    z-index: 1;
+>>>>>>> 1d83c5eaf851f8712d592d7c313fcf3d264a07a5
 }
 
 .all:hover .div-bottom {
