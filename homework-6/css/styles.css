@@ -267,6 +267,7 @@ input[type=“radio”].visually-hidden {
 
 .image-bottom {
     text-align: center;
+    width: 380px;
 }
 
 .bottom-flex {
@@ -330,14 +331,16 @@ input[type=“radio”].visually-hidden {
     color: rgb(204, 204, 204);
     font-style: italic;
     line-height: 1.6;
-    padding-left: 12px;
 }
 
 .input {
     width: 230px;
     height: 40px;
     border: 1px solid #e7e7e7;
-    
+    padding-left: 12px;
+    font-size: 15px;
+    font-family: "Roboto";
+    line-height: 1.6;
 }
 
 .subscribe {
