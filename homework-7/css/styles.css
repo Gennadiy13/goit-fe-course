@@ -1,0 +1,281 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.visually-hidden:not(:focus):not(:active), 
+input[type=“checkbox”].visually-hidden,
+input[type=“radio”].visually-hidden {
+    position: absolute;
+    width: 0.0625rem;
+    height: 0.0625rem;
+    margin: -0.0625rem;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.container {
+    width: 58.75rem;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+@font-face {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+src: local('Montserrat Bold'), local('Montserrat-Bold'),
+        url('../fonts/montserrat-v14-latin-700.woff2') format('woff2'),
+        url('../fonts/montserrat-v14-latin-700.woff') format('woff');
+}
+
+@font-face {
+font-family: 'droid_serifitalic';
+src: url('DroidSerif-Italic-webfont.eot');
+src: url('DroidSerif-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('DroidSerif-Italic-webfont.woff2') format('woff2'),
+        url('DroidSerif-Italic-webfont.woff') format('woff'),
+        url('DroidSerif-Italic-webfont.ttf') format('truetype'),
+        url('DroidSerif-Italic-webfont.svg#droid_serifitalic') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_slabregular';
+    src: url('RobotoSlab-Regular-webfont.eot');
+    src: url('RobotoSlab-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('RobotoSlab-Regular-webfont.woff2') format('woff2'),
+         url('RobotoSlab-Regular-webfont.woff') format('woff'),
+         url('RobotoSlab-Regular-webfont.ttf') format('truetype'),
+         url('RobotoSlab-Regular-webfont.svg#roboto_slabregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.125rem;
+    margin-bottom: 6.5rem;
+}
+
+.ul-top {
+    display: flex;
+    justify-content: space-between;
+    width: 30rem;
+    font-family: "Montserrat";
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+.nav:hover {
+    color: #fed136;
+    cursor: pointer;
+}
+
+.services {
+    text-align: center;
+}
+  
+.services-title {
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 0.375rem;
+}
+  
+.services-description {
+    font-family: "DroidSerif";
+    font-style: italic;
+    font-size: 1rem;
+    color: #777777;
+    margin-bottom: 5rem;
+}
+
+.ul-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7.625rem;
+}
+
+.li-flex {
+    width: 17.125rem;
+    list-style-type: none;
+}
+
+.li-flex::before {
+    content: "";
+    display: inline-block;
+    width: 4.5rem;
+    height: 4.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid #fed136;
+    border-radius: 90%;
+    margin-bottom: 1.5rem;
+}
+
+.basket::before {
+    background-image: url(../img/basket.png);
+}
+
+.laptop::before {
+    background-image: url(../img/laptop.png);
+}
+
+.locked::before {
+    background-image: url(../img/locked.png);
+}
+
+.li-flex-title {
+    font-size: 1.125rem;
+    font-family: "Montserrat";
+    color: #222222;
+    font-weight: bold;
+    margin-bottom: 1.25rem;
+}
+
+.li-flex-description {
+    font-size: 0.875rem;
+    font-family: "RobotoSlab";
+    color: #777777;
+}
+
+.contact { 
+    width: 100%;
+    background-color: #222222;
+    text-align: center;
+    padding-top: 6.5rem;
+    width: 100%;
+    object-fit: cover;
+    background-image: url(../img/map.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.contact-title {
+    font-size: 2.5rem;
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.375rem;
+}
+
+.contact-description {
+    font-family: "DroidSerif";
+    font-style: italic;
+    font-size: 1rem;
+    color: #777777;
+    margin-bottom: 4.75rem;
+}
+
+.contact-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 28.375rem;
+    height: 13.25rem;
+}
+
+.input-bottom {
+    border: none;
+    border-radius: 3px;
+    width: 28.375rem;
+    height: 3.25rem;
+    padding-left: 1.25rem;
+}
+
+.input-bottom::placeholder {
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 0.875rem;
+    color: #bbbbbb;
+}
+
+.message-bottom::placeholder {
+    
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 0.875rem;
+    color: #bbbbbb;
+}
+
+.message-bottom {
+    width: 28.375rem;
+    height: 13.25rem;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 1.875rem;
+    resize: none;    
+    padding-left: 1.25rem;
+    padding-top: 1.25rem;
+}
+
+.button {
+    width: 15rem;
+    height: 4.125rem;
+    border: none;
+    border-radius: 3px;
+    background-color: #fed136;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-bottom: 7.25rem;
+    cursor: pointer;
+}
+
+input[type="text"]:required:focus:valid, 
+input[type="email"]:required:focus:valid, 
+textarea:required:focus:valid {
+    border: 2px solid green;
+}
+
+.form input[type="text"]:required:focus:invalid, 
+.form input[type="email"]:required:focus:invalid, 
+.form textarea:required:focus:invalid {
+    border: 2px solid red;
+}
+
+input[type="text"]:required:focus {
+    outline: 0;
+}
+
+input[type="email"]:required:focus {
+    outline: 0;
+}
+
+textarea:required:focus {
+    outline: 0;
+}

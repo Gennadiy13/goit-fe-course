@@ -2,11 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>homework-7</title>
 </head>
 <body>
-    
+    <div>
+        <header class="header-flex container">
+            <h1 class="visually-hidden">Golden</h1>
+            <a href="№"><img src="./img/Logo-Treehouse.png" alt="logo" width="79" height="28"></a>
+            <ul class="ul-top">
+                <li class="nav">Home</li>
+                <li class="nav">Services</li>
+                <li class="nav">Portfolio</li>
+                <li class="nav">About</li>
+                <li class="nav">Contact</li>
+            </ul>
+        </header>
+        <main>
+            <section class="services container">
+                <h2 class="services-title">Services</h2>
+                <h3 class="services-description">Proin iaculis purus consequat sem cure.</h3>
+                <ul class="ul-flex">
+                    <li class="li-flex basket">
+                        <h4 class="li-flex-title">E-Commerce</h4>
+                        <p class="li-flex-description">Proin iaculis purus consequat sem cure 
+                            digni ssim. Donec porttitora entum suscipit 
+                            aenean rhoncus posuere odio in tincidunt.</p>
+                    </li>
+                    <li class="li-flex laptop">
+                        <h4 class="li-flex-title">Responsive Web</h4>
+                        <p class="li-flex-description">Proin iaculis purus consequat sem cure 
+                            digni ssim. Donec porttitora entum suscipit 
+                            aenean rhoncus posuere odio in tincidunt.</p>
+                    </li>
+                    <li class="li-flex locked">
+                        <h4 class="li-flex-title">Web Security</h4>
+                        <p class="li-flex-description">Proin iaculis purus consequat sem cure 
+                            digni ssim. Donec porttitora entum suscipit 
+                            aenean rhoncus posuere odio in tincidunt.</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="contact">
+                <div class="bottom-image container">
+                    <h2 class="contact-title">Contact us</h2>
+                    <h3 class="contact-description">Proin iaculis purus consequat sem cure.</h3>
+                    <form class="form" action="#" method="get">
+                        <div class="contact-flex">
+                            <div class="input-flex">
+                                <input class="input-bottom" type="text" name="name" required placeholder="Your name *">
+                                <input class="input-bottom" type="email" name="email" required placeholder="Your e-mail *">
+                                <input class="input-bottom" type="text" name="subject" placeholder="Subject">
+                            </div>
+                            <textarea class="message-bottom" name="message" id="" cols="30" rows="10" required placeholder="Your message *"></textarea>
+                        </div>
+                        <input class="button" type="button" value = "Send message">
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
