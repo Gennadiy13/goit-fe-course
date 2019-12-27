@@ -1,0 +1,304 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.visually-hidden:not(:focus):not(:active), 
+input[type=“checkbox”].visually-hidden,
+input[type=“radio”].visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.container {
+    width: 280px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'), 
+         url('../fonts/montserrat-v14-latin-regular.woff') format('woff'); 
+  }
+  
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+        url('../fonts/montserrat-v14-latin-700.woff2') format('woff2'), 
+        url('../fonts/montserrat-v14-latin-700.woff') format('woff'); 
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'),
+         url('../fonts/roboto-v20-latin-300.woff2') format('woff2'),
+         url('../fonts/roboto-v20-latin-300.woff') format('woff'); 
+}
+ 
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'),
+         url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'), 
+         url('../fonts/roboto-v20-latin-regular.woff') format('woff');
+}
+
+.background {
+    background-image: url(../img/object.png);
+    background-size: cover;
+    height: fit-content;
+    text-align: center;
+    color: #ffffff;
+    background-position: center;
+    padding-top: 20px;
+    padding-bottom: 150px;
+}
+
+.button-top {
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    line-height: 1.2;
+    background: none;
+    border: none;
+    color: #ffffff;
+    border: 2px solid rgba(255, 255, 255, 0);
+    padding: 8px 14px;
+    border-radius: 20px;
+}
+
+.log {
+    margin-right: 2px;
+    margin-bottom: 118px;
+}
+
+.logo {
+    font-size: 20px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.header {
+    margin-bottom: 34px;
+}
+
+.share {
+    font-size: 28px;
+    font-family: "Montserrat";;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+.find {
+    font-size: 18px;
+    font-family: "Roboto";
+    line-height: 1.2;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.partner-top {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    line-height: 1.2;
+    border: 2px solid #ff4e50;
+    padding: 14px 44px;
+    background-color: #ff4e50;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.sector-title {
+    font-size: 22px;
+    font-family: "Montserrat";
+    color: #333333;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 68px;
+    margin-bottom: 18px;
+}
+
+.content {
+    text-align: center;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.circle {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 121px;
+    position: relative;
+}
+
+.circle::before {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+    display: block;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border: 4px solid #ffffff;
+    border-radius: 90px;
+    top: 85px;
+    left: 85px;
+}
+
+.tv::before {
+    background-image: url(../img/icons/tv.png);
+    background-color: #ff4e50;
+}
+
+.glass::before {
+    background-image: url(../img/icons/glass.png);
+    background-color: #ffa507;
+}
+
+.coffee::before {
+    background-image: url(../img/icons/coffee.png);
+    background-color: #1cd7ad;
+}
+
+.telegram::before {
+    background-image: url(../img/icons/telegram.png);
+    background-color: #4e73db;
+}
+
+.content-title {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: #333333;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+
+.content-description {
+    display: inline-block;
+    font-size: 14px;
+    font-family: "Roboto";
+    color: #666666;
+    line-height: 1.2;
+    font-weight: 300;
+}
+
+.partner-bottom {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    line-height: 1.2;
+    border: 2px solid #ff4e50;
+    padding: 14px 50px;
+    background-color: #ff4e50;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 68px;
+    
+  }
+
+  .button:hover {
+      background-color: white;
+      color: #ff4e50;
+  }
+
+  .button-top:hover {
+    border: 2px solid #ffffff;
+    padding: 8px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+@media (min-width: 768px) {
+    .container {
+        width: 748px;
+        margin: 0 auto;
+     } 
+    
+    .header {
+        width: 100%;
+        justify-content: space-between;
+        margin: 0 auto;
+     }
+    
+    .share {
+        font-size: 52px;
+        margin-bottom: 44px;
+     }
+
+    .find {
+        font-size: 24px;
+        margin-bottom: 80px;
+    }
+
+    .background {
+        padding-bottom: 250px;
+    } 
+
+    .button {
+        padding: 14px 24px;
+    } 
+
+    .sector-title {
+        margin-bottom: 36px;
+    } 
+
+    .wrap {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 960px) {
+    .container {
+        width: 940px;
+        margin: 0 auto;
+     } 
+
+     .content:nth-child(odd) {
+        margin-right: 0;
+    }  
+}
