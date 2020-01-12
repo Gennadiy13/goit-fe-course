@@ -1,0 +1,117 @@
+.bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 14px;
+    padding-top: 10px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.bottom__text {
+    font-size: 14px;
+    font-family: $font-montserrat;
+    color: $color-grey;
+}
+
+.bottom__link {
+    text-decoration: none;
+    color: $color-peach;
+    -webkit-transition-duration: 200ms;
+         -o-transition-duration: 200ms;
+            transition-duration: 200ms;
+
+    &:hover {
+        color: $color-cyan;
+        -webkit-transition-duration: 200ms;
+            -o-transition-duration: 200ms;
+                transition-duration: 200ms;
+    }
+}
+
+.bottom__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.bottom__form ::-webkit-input-placeholder {
+    font-size: 15px;
+    font-family: $font-roboto;
+    color: rgb(204, 204, 204);
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.bottom__form ::-moz-placeholder {
+    font-size: 15px;
+    font-family: $font-roboto;
+    color: $color-dirty-white;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.bottom__form :-ms-input-placeholder {
+    font-size: 15px;
+    font-family: $font-roboto;
+    color: $color-dirty-white;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.bottom__form ::-ms-input-placeholder {
+    font-size: 15px;
+    font-family: $font-roboto;
+    color: $color-dirty-white;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.bottom__form ::placeholder {
+    font-size: 15px;
+    font-family: $font-roboto;
+    color: $color-dirty-white;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.bottom__input {
+    width: 230px;
+    height: 40px;
+    border: 1px solid $color-dirty-white;
+    padding-left: 12px;
+    font-size: 15px;
+    font-family: $font-roboto;
+    line-height: 1.6;
+}
+
+.bottom__subscribe {
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: $color-cyan;
+    color: $color-white;
+    font-size: 14px;
+    font-family: $font-montserrat;
+    font-weight: bold;
+    text-transform: uppercase;
+    -webkit-transition-duration: 200ms;
+         -o-transition-duration: 200ms;
+            transition-duration: 200ms;
+
+    &:hover {
+        cursor: pointer;
+        background-color: $color-peach;
+        -webkit-transition-duration: 200ms;
+            -o-transition-duration: 200ms;
+                transition-duration: 200ms;
+    }
+}
